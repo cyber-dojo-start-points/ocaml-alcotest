@@ -1,0 +1,28 @@
+{
+  "display_name": "OCaml 4.14, alcotest 1.5",
+  "language": [
+    "OCaml",
+    "4.14"
+  ],
+  "test_framework": [
+    "alcotest",
+    "1.5"
+  ],
+  "image_name": "ghcr.io/cyber-dojo-languages/ocaml_alcotest:65c51dd",
+  "visible_filenames": [
+    "test/test_hiker.ml",
+    "src/hiker.ml",
+    "test/alcotest_checks.ml",
+    "cyber-dojo.sh"
+  ],
+  "rag_lambda": "red_amber_green.rb",
+  "filename_extension": [
+    ".ml"
+  ],
+  "progress_regexs": [
+    "^(\\d+) failures?! in .*?(\\d+) tests? run\\.",
+    "^Test Successful in .*?(\\d+) tests? run\\."
+  ],
+  "max_seconds": 10,
+  "tab_size": 2
+}
