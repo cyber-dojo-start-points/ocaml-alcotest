@@ -1,0 +1,10 @@
+{
+  "matches": [
+    "^0001 probing the improbability drive$"
+  ],
+  "match_counts": {
+    "^Test Successful in ": 0,
+    "^[0-9]+ failures?! in ": 0
+  },
+  "truncated": true
+}

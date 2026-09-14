@@ -1,0 +1,13 @@
+{
+  "matches": [
+    "^DEBUG working the answer out$",
+    "^Test Successful in .*1 test run\\.$"
+  ],
+  "match_counts": {
+    "^DEBUG ": 1,
+    "^ +\\[OK\\] +hiker ": 1,
+    "^Test Successful in ": 1
+  },
+  "max_output_lines": 13,
+  "truncated": false
+}

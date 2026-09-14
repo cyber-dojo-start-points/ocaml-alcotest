@@ -1,0 +1,11 @@
+{
+  "matches": [
+    "^Test Successful in .*0 test run\\.$"
+  ],
+  "match_counts": {
+    "^ +\\[OK\\] ": 0,
+    "^ +\\[FAIL\\] ": 0,
+    "^Test Successful in ": 1
+  },
+  "truncated": false
+}

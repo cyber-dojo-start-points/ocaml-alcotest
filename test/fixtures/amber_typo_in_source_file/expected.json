@@ -1,0 +1,13 @@
+{
+  "matches": [
+    "^File \"\\./src/hiker\\.ml\", line 1, characters 20-33:$",
+    "^Error: Unbound value String\\.lenght$",
+    "^Hint: Did you mean length\\?$"
+  ],
+  "match_counts": {
+    "^Error: ": 1,
+    "^Test Successful in ": 0,
+    "^[0-9]+ failures?! in ": 0
+  },
+  "truncated": false
+}

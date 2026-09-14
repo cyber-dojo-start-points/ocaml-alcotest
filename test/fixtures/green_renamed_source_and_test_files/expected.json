@@ -1,0 +1,12 @@
+{
+  "matches": [
+    "^Test Successful in .*2 tests run\\.$",
+    "^Testing .fizz buzz.\\.$"
+  ],
+  "match_counts": {
+    "^ +\\[OK\\] +fizz buzz ": 2,
+    "^Test Successful in ": 1
+  },
+  "max_output_lines": 13,
+  "truncated": false
+}

@@ -1,0 +1,13 @@
+{
+  "matches": [
+    "^1 failure! in .*1 test run\\.$",
+    "^ +Expected: .42.$",
+    "^ +Received: .54.$"
+  ],
+  "match_counts": {
+    "^ +\\[FAIL\\] +hiker ": 1,
+    "^ASSERT life, the universe, and everything$": 1,
+    "^1 failure! in ": 1
+  },
+  "truncated": false
+}

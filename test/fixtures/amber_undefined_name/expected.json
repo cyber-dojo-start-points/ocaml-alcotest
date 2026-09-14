@@ -1,0 +1,13 @@
+{
+  "matches": [
+    "^File \"\\./test/test_hiker\\.ml\", line 2, characters 64-76:$",
+    "^Error: Unbound value Hiker\\.ansewr$",
+    "^Hint: Did you mean answer\\?$"
+  ],
+  "match_counts": {
+    "^Error: ": 1,
+    "^Test Successful in ": 0,
+    "^[0-9]+ failures?! in ": 0
+  },
+  "truncated": false
+}

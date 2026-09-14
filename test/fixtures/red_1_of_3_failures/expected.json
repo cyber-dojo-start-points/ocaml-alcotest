@@ -1,0 +1,11 @@
+{
+  "matches": [
+    "^1 failure! in .*3 tests run\\.$"
+  ],
+  "match_counts": {
+    "^ +\\[FAIL\\] +hiker ": 1,
+    "^ +\\[OK\\] +hiker ": 2,
+    "^1 failure! in ": 1
+  },
+  "truncated": false
+}

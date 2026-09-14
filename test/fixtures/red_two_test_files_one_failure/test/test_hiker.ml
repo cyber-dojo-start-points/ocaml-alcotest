@@ -1,0 +1,14 @@
+let test_answer () =
+  Alcotest.(check int) "life, the universe, and everything" 42 (Hiker.answer ())
+
+let test_name () =
+  Alcotest.(check string) "the name of the guide" "hiker" (Hiker.name ())
+
+let () =
+  Alcotest.run "hiker" [
+    ("hiker", [
+      Alcotest.test_case "answer" `Quick test_answer;
+      Alcotest.test_case "name" `Quick test_name;
+    ]);
+    ("answer size", Test_answer_size.tests);
+  ]

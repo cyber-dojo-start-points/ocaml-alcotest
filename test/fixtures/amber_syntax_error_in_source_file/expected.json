@@ -1,0 +1,12 @@
+{
+  "matches": [
+    "^File \"\\./src/hiker\\.ml\", line 2, characters 0-0:$",
+    "^Error: Syntax error$"
+  ],
+  "match_counts": {
+    "^Error: ": 1,
+    "^Test Successful in ": 0,
+    "^[0-9]+ failures?! in ": 0
+  },
+  "truncated": false
+}

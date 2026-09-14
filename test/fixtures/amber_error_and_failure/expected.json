@@ -1,0 +1,13 @@
+{
+  "matches": [
+    "^\\[failure\\] the ship fell out of the sky$",
+    "^ASSERT the name of the guide$",
+    "^2 failures! in .*2 tests run\\.$"
+  ],
+  "match_counts": {
+    "^\\[failure\\] ": 1,
+    "^ASSERT ": 1,
+    "^ +\\[FAIL\\] +hiker ": 2
+  },
+  "truncated": false
+}

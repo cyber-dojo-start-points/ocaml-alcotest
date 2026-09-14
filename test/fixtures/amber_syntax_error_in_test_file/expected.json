@@ -1,0 +1,13 @@
+{
+  "matches": [
+    "^File \"\\./test/test_hiker\\.ml\", line 4, characters 0-3:$",
+    "^Error: Syntax error: '\\)' expected$",
+    "^  This '\\(' might be unmatched$"
+  ],
+  "match_counts": {
+    "^Error: ": 1,
+    "^Test Successful in ": 0,
+    "^[0-9]+ failures?! in ": 0
+  },
+  "truncated": false
+}
