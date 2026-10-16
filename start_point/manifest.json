@@ -1,14 +1,14 @@
 {
-  "display_name": "OCaml 4.14, alcotest 1.5",
+  "display_name": "OCaml 4.14.4, alcotest 1.5.0",
   "language": [
     "OCaml",
-    "4.14"
+    "4.14.4"
   ],
   "test_framework": [
     "alcotest",
-    "1.5"
+    "1.5.0"
   ],
-  "image_name": "ghcr.io/cyber-dojo-languages/ocaml_alcotest:65c51dd",
+  "image_name": "ghcr.io/cyber-dojo-languages/ocaml_alcotest:90b3d3f@sha256:d6773920d61513e40b731e4fbffef5078ebddfdc1a2c3dcbe7a67c7fd917693d",
   "visible_filenames": [
     "test/test_hiker.ml",
     "src/hiker.ml",
