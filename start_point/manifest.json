@@ -23,6 +23,5 @@
     "^(\\d+) failures?! in .*?(\\d+) tests? run\\.",
     "^Test Successful in .*?(\\d+) tests? run\\."
   ],
-  "max_seconds": 10,
   "tab_size": 2
 }
